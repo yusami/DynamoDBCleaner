@@ -95,7 +95,7 @@ Deletion:
 
 ## Licence
 
-* Copyright &copy; 2021 yusami
+* Copyright &copy; 2021-2022 yusami
 * Licensed under [MIT License](https://opensource.org/licenses/mit-license.php)
 
 ## Author
