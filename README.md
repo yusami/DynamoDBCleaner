@@ -11,7 +11,7 @@
 
 ## Requirement
 
-* Ruby 2.7
+* Ruby 3.1
 * [AWS SDK for Ruby](https://aws.amazon.com/jp/sdk-for-ruby/)
 * AWS credentials
 
@@ -95,7 +95,7 @@ Deletion:
 
 ## Licence
 
-* Copyright &copy; 2021-2022 yusami
+* Copyright &copy; 2021-2023 yusami
 * Licensed under [MIT License](https://opensource.org/licenses/mit-license.php)
 
 ## Author
