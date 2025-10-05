@@ -5,3 +5,4 @@ gem 'aws-sdk-dynamodb', '~> 1'
 gem "os"
 gem 'nokogiri'
 gem 'base64'
+gem 'bigdecimal'
