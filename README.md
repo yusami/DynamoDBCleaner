@@ -11,7 +11,7 @@
 
 ## Requirement
 
-* Ruby 3.1
+* Ruby 3.4
 * [AWS SDK for Ruby](https://aws.amazon.com/jp/sdk-for-ruby/)
 * AWS credentials
 
@@ -37,7 +37,7 @@ bc.delete_items( 10 )
 ## Example
 
 ~~~
-$ ./bulk_cleaner.rb 
+$ ruby bulk_cleaner.rb 
 ==========================
 -round: 1/1
 -limit: 2
@@ -95,7 +95,7 @@ Deletion:
 
 ## Licence
 
-* Copyright &copy; 2021-2023 yusami
+* Copyright &copy; 2021-2025 yusami
 * Licensed under [MIT License](https://opensource.org/licenses/mit-license.php)
 
 ## Author

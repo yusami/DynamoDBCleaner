@@ -18,9 +18,17 @@ Aws.config.update({
 
 class BulkCleaner
   def initialize(table_name, time_key, delete_id)
+
+    # SSL options
+    # https://docs.aws.amazon.com/sdk-for-ruby/v3/api/Aws/DynamoDB/Client.html#initialize-instance_method
+    cert_store = OpenSSL::X509::Store.new
+    cert_store.set_default_paths
+
     # DynamoDB
-    @dynamoDB = Aws::DynamoDB::Resource.new
-    @client = Aws::DynamoDB::Client.new
+    @dynamoDB = Aws::DynamoDB::Resource.new(:ssl_ca_store => cert_store)
+    
+    # db client
+    @client = Aws::DynamoDB::Client.new(:ssl_ca_store => cert_store)
 
     # Configs
     @table_name = table_name
