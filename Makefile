@@ -16,6 +16,9 @@ install: ## Install gems
 	bundle config set --local without 'development test'
 	bundle install
 
+update: ## Update gems
+	bundle update --bundler
+
 run: ## Run the ruby script (default)
 	ruby bulk_cleaner.rb
 
